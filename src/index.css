@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-google-gray text-gray-900 dark:bg-google-dark dark:text-gray-100 transition-colors duration-200;
+  }
+}
+.react-calendar {
+  @apply bg-white dark:bg-google-darkSurface border-none rounded-lg shadow-sm p-4 w-full text-sm font-sans !important;
+}
+.react-calendar__tile--active {
+  @apply bg-google-blue text-white rounded-full !important;
+}
+.react-calendar__tile--hasActive {
+  @apply bg-blue-100 text-blue-700 rounded-full font-bold !important;
+}
