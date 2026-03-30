@@ -15,6 +15,10 @@ export default function SidebarProgressBar({ status, isCollapsed }: SidebarProgr
     <div className="px-4 py-3 border-b border-gray-200 dark:border-gray-800">
       {!isCollapsed && (
         <>
+
+{/* alterz  */}
+
+
           <div className="flex justify-between items-center mb-2">
             <span className="text-xs font-medium text-gray-600 dark:text-gray-400">
               Indexando arquivos...
